@@ -140,17 +140,28 @@ newNumber4 = String(4); // it will be "string"
 
 //operators
 
-// + , - , * , / , < , > , % , &&, &, =, ==, ===, >=, <=, =>
+// + , - , * , / , < , > , % , &&, &, =, ==, ===, >=, <=, =>, [], {}
 
 let x = 1;
 let y = 2;
 let z = 3;
 
-console.log(x = y);
-console.log(x == y);
-console.log(x != y);
-console.log(x !== y);
-console.log(x-y != z);
-console.log(x-z != y);
+// console.log(x = y);
+// console.log(x == y);
+// console.log(x != y);
+// console.log(x !== y);
+// console.log(x-y != z);
+// console.log(x-z != y);
+// console.log(typeof(x-z != y));
+
+//determination of power in && and || operator
+// console.log(typeof(x && y));
+// console.log(typeof(x || y));
+console.log((y+z)||y);
+
+
+
+
+
 
 
