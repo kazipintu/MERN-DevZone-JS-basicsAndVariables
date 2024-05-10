@@ -157,7 +157,35 @@ let z = 3;
 //determination of power in && and || operator
 // console.log(typeof(x && y));
 // console.log(typeof(x || y));
-console.log((y+z)||y);
+//console.log((y+z)||y);
+
+//parseFloat and parseInt
+let xx = 1.025489;
+let yy = 2.023145;
+let zz = 3.032549;
+console.log(parseFloat(xx));
+console.log(parseFloat(xx).toFixed(2));
+console.log(yy);
+console.log(parseFloat(yy).toFixed(2));
+console.log(zz);
+console.log(parseInt(zz));
+
+let xX = 6.71526;
+let yY = 51.021436;
+
+console.log(xX);
+console.log(Math.ceil(xX));
+console.log(Math.floor(xX));
+console.log(yY);
+console.log(Math.ceil(yY));
+console.log(Math.floor(yY));
+console.log(Math.round(xX));
+console.log(Math.round(yY));
+
+console.log(Math.random());
+console.log(Math.random());
+console.log(Math.random() * 10);
+
 
 
 
