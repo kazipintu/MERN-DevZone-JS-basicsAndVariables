@@ -17,7 +17,7 @@
 
 /* variable should be written in a single word, meaningful, camelCase */
 
-//var : globally and locally works and changeable, editabel
+//var : globally and locally works and changeable, editable
 //let : only used globally or only used locally (either or), changeable, editable
 //const : only globally or locally (either or), but not changebale or editable.
 
