@@ -123,7 +123,7 @@ newNumber1 = +"102" // it will be "string"
 
 let newNumber2 = -"102";
 console.log(newNumber2);
-console.log(typeof(newNumber2)); // it will be "number"
+console.log(typeof (newNumber2)); // it will be "number"
 
 let newNumber3 = "102"; //it was "string"
 //console.log(typeof(newNumber3));
@@ -185,6 +185,35 @@ console.log(Math.round(yY));
 console.log(Math.random());
 console.log(Math.random());
 console.log(Math.random() * 10);
+
+{
+  //simple math
+  let inches = 1442;
+  let feet = inches / 12;
+  console.log((feet));
+}
+
+{
+  // math toFixed example
+  let inches = 1442;
+  let feet = inches / 12;
+  let feetTwoDigit = feet.toFixed(2);
+  console.log(feetTwoDigit);
+}
+
+{
+  // math remainder example-1
+  const num = 1442;
+  const remainder = num % 2;  // % is called a modulus operator
+  console.log(remainder);
+}
+
+{
+  // math remainder example-2
+  const num = 1442;
+  const remainder = num % 3;  // % is called a modulus operator
+  console.log(remainder);
+}
 
 
 
