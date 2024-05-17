@@ -215,6 +215,70 @@ console.log(Math.random() * 10);
   console.log(remainder);
 }
 
+{
+  /* types of loops, loop is used on array
+
+  1. for loop
+  2. while loop
+  3. do-while loop
+  4. for-each loop
+  5. find, filter, map
+
+  */
+
+  let number = '4';
+  console.log(typeof (number)); // it is string
+
+  number = '4';
+  console.log(typeof (parseInt(number))); // 1. convreted to number
+
+  number = '4';
+  console.log(typeof (parseFloat(number))); // 2. converted to number
+
+  number = Number('4');
+  console.log(typeof (number));  // 3. coverted to number
+
+  number = -'4'
+  console.log(typeof (number)); // 4. converted to -ve number
+
+  number = +'4';
+  console.log(typeof (number)); // 5. converted to number
+}
+
+
+{
+  /* let = changeable
+     const = unchageable */
+}
+
+{
+  /*  ~ FUNCTION ~  */
+
+  // 1. name function
+  function nameFunction(data) {
+
+  }
+
+  // 2. anonymous function
+  addEventListener('click', function () {
+
+  })
+
+  // 3. arrow function
+  const arrowFunctionStart = () => {
+
+  }
+
+  // 4. call-back function
+  const callBackFunction = (data) => {
+    function nameFunction(data) {
+      return modified(data);
+    }
+
+  }
+
+}
+
 
 
 
