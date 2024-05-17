@@ -251,33 +251,7 @@ console.log(Math.random() * 10);
      const = unchageable */
 }
 
-{
-  /*  ~ FUNCTION ~  */
 
-  // 1. name function
-  function nameFunction(data) {
-
-  }
-
-  // 2. anonymous function
-  addEventListener('click', function () {
-
-  })
-
-  // 3. arrow function
-  const arrowFunctionStart = () => {
-
-  }
-
-  // 4. call-back function
-  const callBackFunction = (data) => {
-    function nameFunction(data) {
-      return modified(data);
-    }
-
-  }
-
-}
 
 
 
