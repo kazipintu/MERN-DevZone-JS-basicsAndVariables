@@ -251,8 +251,45 @@ console.log(Math.random() * 10);
      const = unchageable */
 }
 
+{
+  // variables in JS are called dynamic type variables, because they can be easily changed from one to another
+
+  let a = 50;
+  let b = "alphabet";
+  let c = false;
+  console.log(typeof a, typeof b, typeof c);
+}
+
+/*  ~ PRIMITIVE data type ~  */
+/* number, string, boolean, undefined, null */
+
+/*  ~ NON-PRIMITIVE data type ~  */
+/*  object, array */
+
+{
+  let a = 'Hello';
+  let b = a;
+  console.log(a, b);
+
+  a = 'Kaif';
+  console.log(a, b);
+
+}
 
 
+{
+  const a = "Hello";
+  const b = "Joy";
+  //console.log(a, b);
+
+
+
+
+}
+
+const Xx = { job: 'web developer' };
+const Yy = Xx;
+console.log(Xx, Yy);
 
 
 
