@@ -281,16 +281,135 @@ console.log(Math.random() * 10);
   const a = "Hello";
   const b = "Joy";
   //console.log(a, b);
-
-
-
-
 }
 
-const Xx = { job: 'web developer' };
-const Yy = Xx;
-console.log(Xx, Yy);
+{
+  const Xx = { job: 'web developer' };
+  const Yy = Xx;
+  console.log(Xx, Yy);
 
+  Yy.job = 'designer';
+  console.log(Xx, Yy);
+}
+
+
+{
+  let Xx = { job: 'web developer' };
+  let Yy = Xx;
+  console.log(Xx, Yy);
+
+  Yy.job = 'designer';
+  console.log(Xx, Yy);
+}
+
+
+{
+  let c = 4;
+  if (c) {
+    console.log("this is truthy", c);
+  } else {
+    console.log("this is falsy");
+  }
+}
+
+{
+  let c = '';
+  if (c) {
+    console.log("this is truthy", c);
+  } else {
+    console.log("this is falsy");
+  }
+}
+
+{
+  let c = null;
+  if (c) {
+    console.log("this is truthy", c);
+  } else {
+    console.log("this is falsy");
+  }
+}
+
+{
+  let c = 0;
+  if (c) {
+    console.log("this is truthy", c);
+  } else {
+    console.log("this is falsy");
+  }
+}
+
+{
+  let c = -1;
+  if (c) {
+    console.log("this is truthy", c);
+  } else {
+    console.log("this is falsy");
+  }
+}
+
+{
+  let c = {};
+  if (c) {
+    console.log("this is truthy", c);
+  } else {
+    console.log("this is falsy");
+  }
+}
+
+{
+  let c = [];
+  if (c) {
+    console.log("this is truthy", c);
+  } else {
+    console.log("this is falsy");
+  }
+}
+
+{
+  let c = undefined;
+  if (c) {
+    console.log("this is truthy", c);
+  } else {
+    console.log("this is falsy");
+  }
+}
+
+{
+  let c = false;
+  if (c) {
+    console.log("this is truthy", c);
+  } else {
+    console.log("this is falsy");
+  }
+}
+
+{
+  let c = true;
+  if (c) {
+    console.log("this is truthy", c);
+  } else {
+    console.log("this is falsy");
+  }
+}
+
+{
+  let c = NaN;
+  if (c) {
+    console.log("this is truthy", c);
+  } else {
+    console.log("this is falsy");
+  }
+}
+
+{
+  let c = ' ';
+  if (c) {
+    console.log("this is truthy", c);
+  } else {
+    console.log("this is falsy");
+  }
+}
 
 
 
