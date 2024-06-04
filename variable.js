@@ -412,6 +412,30 @@ console.log(Math.random() * 10);
 }
 
 
+{
+  const first = 4;
+  const second = "4";
+
+  if (first == second) {
+    console.log('same data');
+  } else {
+    console.log("not-same data");
+  }
+}
+
+
+{
+  const first = 4;
+  const second = "4";
+
+  if (first === second) {
+    console.log('same data');
+  } else {
+    console.log("not-same data");
+  }
+}
+
+
 
 
 
